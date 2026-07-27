@@ -128,13 +128,13 @@ The system serves three user roles — **Super Admin**, **Admin**, and **Client*
 │              (bridge)                   │
 │                                         │
 │  ┌──────────────┐  ┌─────────────────┐  │
-│  │ embassy_nginx │→ │ embassy_container│  │
-│  │   (port 8080) │  │  (PHP 8.4-FPM)  │  │
+│  │ embassy_nginx │→ │ embassy_container │
+│  │   (port 8080) │  │  (PHP 8.4-FPM)  │ │
 │  └──────────────┘  └───────┬─────────┘  │
 │                            │             │
 │                 ┌──────────┼──────────┐  │
 │            ┌────▼───┐  ┌──▼────────┐  │  │
-│            │ MySQL  │  │   Redis    │  │  │
+│            │ MySQL  │  │   Redis   │     │
 │            │ (3306) │  │  (6379)   │  │  │
 │            └────────┘  └───────────┘  │  │
 └─────────────────────────────────────────┘
