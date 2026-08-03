@@ -47,43 +47,43 @@ The system serves three user roles — **Super Admin**, **Admin**, and **Client*
 
 ### Home Page
 
-<p align="center"><img src="media/HomePage_Embassy_Management.png" width="100%" alt="Home Page"></p>
+<p align="center"><img src="screenshots/HomePage_Embassy_Management.png" width="100%" alt="Home Page"></p>
 
 ### Admin Dashboard
 
-<p align="center"><img src="media/Admin_Dashboard.png" width="100%" alt="Admin Dashboard"></p>
+<p align="center"><img src="screenshots/Admin_Dashboard.png" width="100%" alt="Admin Dashboard"></p>
 
 ### Client Portal
 
-<p align="center"><img src="media/Client_Portal.png" width="100%" alt="Client Portal"></p>
+<p align="center"><img src="screenshots/Client_Portal.png" width="100%" alt="Client Portal"></p>
 
 ### Client Dashboard
 
-<p align="center"><img src="media/Client_Dashboard.png" width="100%" alt="Client Dashboard"></p>
+<p align="center"><img src="screenshots/Client_Dashboard.png" width="100%" alt="Client Dashboard"></p>
 
 ### Client Profile
 
-<p align="center"><img src="media/Client_Profile.png" width="100%" alt="Client Profile"></p>
+<p align="center"><img src="screenshots/Client_Profile.png" width="100%" alt="Client Profile"></p>
 
 ### Our Services
 
-<p align="center"><img src="media/Our_Services.png" width="100%" alt="Our Services"></p>
+<p align="center"><img src="screenshots/Our_Services.png" width="100%" alt="Our Services"></p>
 
 ### Service Management (Admin)
 
-<p align="center"><img src="media/Service_Management.png" width="100%" alt="Service Management"></p>
+<p align="center"><img src="screenshots/Service_Management.png" width="100%" alt="Service Management"></p>
 
 ### Register New Citizen
 
-<p align="center"><img src="media/Register New Citizen.png" width="100%" alt="Register New Citizen"></p>
+<p align="center"><img src="screenshots/Register New Citizen.png" width="100%" alt="Register New Citizen"></p>
 
 ### Appointment Management
 
-<p align="center"><img src="media/Appoinment_Management.png" width="100%" alt="Appointment Management"></p>
+<p align="center"><img src="screenshots/Appoinment_Management.png" width="100%" alt="Appointment Management"></p>
 
 ### Reports
 
-<p align="center"><img src="media/Reports.png" width="100%" alt="Reports"></p>
+<p align="center"><img src="screenshots/Reports.png" width="100%" alt="Reports"></p>
 
 ---
 
