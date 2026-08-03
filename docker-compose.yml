@@ -3,7 +3,7 @@ services:
   embassy_nginx:
     image: nginx:alpine
     container_name: embassy_nginx
-    restart: unless-stopped
+    restart: "no"
     ports:
       - "8080:80"
     volumes:
@@ -20,7 +20,7 @@ services:
       context: .
       dockerfile: docker/php/Dockerfile
     container_name: embassy_container
-    restart: unless-stopped
+    restart: "no"
     working_dir: /var/www/html
     volumes:
       - .:/var/www/html
@@ -47,7 +47,7 @@ services:
   embassy_mysql:
     image: mysql:8.0
     container_name: embassy_mysql
-    restart: unless-stopped
+    restart: "no"
     ports:
       - "3306:3306"
     environment:
@@ -65,7 +65,7 @@ services:
   embassy_redis:
     image: redis:alpine
     container_name: embassy_redis
-    restart: unless-stopped
+    restart: "no"
     ports:
       - "6379:6379"
     volumes:
