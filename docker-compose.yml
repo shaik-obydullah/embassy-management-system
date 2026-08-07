@@ -49,7 +49,7 @@ services:
     container_name: embassy_mysql
     restart: "no"
     ports:
-      - "3306:3306"
+      - "3309:3306"
     environment:
       MYSQL_ROOT_PASSWORD: embassy_root_password
       MYSQL_DATABASE: embassy_db
@@ -60,6 +60,23 @@ services:
       - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - embassy_network
+
+  # phpMyAdmin
+  embassy_phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: embassy_phpmyadmin
+    restart: "no"
+    ports:
+      - "8091:80"
+    environment:
+      PMA_HOST: embassy_mysql
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: embassy_root_password
+    networks:
+      - embassy_network
+    depends_on:
+      - embassy_mysql
 
   # Redis
   embassy_redis:
